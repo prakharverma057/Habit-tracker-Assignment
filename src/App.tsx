@@ -22,8 +22,6 @@ import {
   Moon,
   Droplets,
   Smartphone,
-  Clock,
-  Settings,
   Calendar,
   Award,
   User,
