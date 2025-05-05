@@ -1,54 +1,101 @@
-# React + TypeScript + Vite
+# Habitify - Life Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Habitify is a learning assingment which is a modern, feature-rich habit and personal stats tracking application designed to help users monitor their daily habits, personal goals, and overall progress. With an intuitive interface, interactive charts, and actionable insights, Habitify's aim is to train AI models on web development using natural language prompts.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### **1. Dashboard**
 
-## Expanding the ESLint configuration
+- Overview of daily habits and personal stats (e.g., sleep, water intake, screen time).
+- Weekly progress visualization using interactive line charts.
+- Quick log section for updating stats and habits.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### **2. Personal Stats**
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Detailed tracking of:
+  - **Sleep**: Daily hours, weekly trends, and streaks.
+  - **Water Intake**: Daily glasses, weekly trends, and streaks.
+  - **Screen Time**: Daily hours, weekly trends, and streaks.
+- Interactive bar charts for weekly data.
+- Sliders for logging daily values.
+- Goal tracking and streak management.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### **3. Habits**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Manage daily habits with completion toggles.
+- Add new habits with custom targets and units.
+- Habit streak tracking with progress bars.
+- Streak overview for all habits.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### **4. Activity Log**
+
+- Logs of completed habits and stats updates.
+- Filtering and export options for activity data.
+- Organized by date for easy navigation.
+
+### **5. Trends**
+
+- Performance trends for habit completion rates and personal stats.
+- Correlations between behaviors (e.g., better sleep leads to higher habit completion).
+- Pie charts for goal achievement percentages.
+
+### **6. Responsive Design**
+
+- Fully responsive layout optimized for desktop and mobile devices.
+
+---
+
+## 🛠️ Technologies Used
+
+### **Frontend**
+
+- **React**: Component-based architecture for building the UI.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Recharts**: Interactive charts for data visualization.
+- **Lucide-React**: Icon library for modern and customizable icons.
+
+### **State Management**
+
+- **React Hooks**: `useState` for managing component state.
+
+📊 Data Visualization
+Charts
+Line Charts: Weekly progress for habits, sleep, water, and screen time.
+Bar Charts: Weekly stats for sleep, water, and screen time.
+Pie Charts: Goal achievement percentages for habits and stats.
+
+Components
+
+1. TabButton
+   Reusable button component for navigation between tabs.
+
+2. SummaryCard
+   Displays a summary of stats or habits with dynamic styling and logic.
+
+3. Charts
+   Interactive charts for visualizing progress and trends.
+
+---
+
+## 🖥️ Installation and Setup
+
+### **Prerequisites**
+
+- Node.js (v16 or higher)
+- npm (v7 or higher)
+
+### **Steps**
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/habitify.git
+   cd habitify
+
+   ```
+
+   📧 Contact
+   For questions or feedback, feel free to reach out:
+   Name: Prakhar Verma
+   Email: prakharwork.work@gmail.com
+   GitHub: github.com/prakharverma057
