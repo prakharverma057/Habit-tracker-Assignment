@@ -97,5 +97,5 @@ Components
    📧 Contact
    For questions or feedback, feel free to reach out:
    Name: Prakhar Verma
-   Email: prakharwork.work@gmail.com
+   Email: prakharverma.work@gmail.com
    GitHub: github.com/prakharverma057
