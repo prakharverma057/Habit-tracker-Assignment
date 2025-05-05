@@ -1,4 +1,4 @@
-# Habitify - Life Tracker App
+# Habititricky - Life Tracker App
 
 ## Habitify is a learning assingment which is a modern, feature-rich habit and personal stats tracking application designed to help users monitor their daily habits, personal goals, and overall progress. With an intuitive interface, interactive charts, and actionable insights, Habitify's aim is to train AI models on web development using natural language prompts.
 
